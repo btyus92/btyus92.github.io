@@ -1,3 +1,228 @@
-body{
-    background-color: blueviolet;
+:root {
+  --text: #0d0b0a;
+  --background: #f9f8f6;
+  --primary: #a18f77;
+  --secondary: #c3b5a3;
+  --accent: #b7a389;
+}
+
+{ margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  line-height: 1.6;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  border: 1px solid #000;
+  padding: 10px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--text);
+}
+
+/* HERO */
+.hero {
+  height: 300px;
+  background: #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+/* GALLERY */
+.gallery {
+  padding: 20px;
+  text-align: center;
+}
+
+.gallery-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.gallery-item {
+  width: 200px;
+  height: 250px;
+  background: var(--primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ABOUT */
+.about {
+  padding: 20px;
+}
+
+.about-container {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.about-image {
+  width: 200px;
+  height: 200px;
+  background: #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-text {
+  flex: 1;
+}
+
+/* FOOTER */
+.footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  border-top: 1px solid #ccc;
+}
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  background: var(--text);
+  color: var(--accent));
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  border: 1px solid #000;
+  padding: 10px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Home */
+.hero {
+  height: 300px;
+  background: #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+/* Gallery */
+.gallery {
+  padding: 20px;
+  text-align: center;
+}
+
+.gallery-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.gallery-item {
+  width: 200px;
+  height: 250px;
+  background: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* About */
+.about {
+  padding: 20px;
+}
+
+.about-container {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.about-image {
+  width: 200px;
+  height: 200px;
+  background: #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-text {
+  flex: 1;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  border-top: 1px solid #ccc;
+}
+
+#gallery1 {
+  width: 200px;
+  height: 190px;
+  background-image: url("wedding.jpg");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#gallery2 {
+  width: 200px;
+  height: 190px;
+  background-image: url("bluejacket.jpg");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}#gallery3 {
+  width: 200px;
+  height: 190px;
+  background-image: url("dadbaby.jpg");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
 }
